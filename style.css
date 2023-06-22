@@ -1,0 +1,77 @@
+body {
+    background-image: url(./Immagini/background.jpg);
+    background-size: cover;  
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.contenitore {
+    width: 1080px;
+    height: 700px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 2%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+h1, h2, p {
+    Font-family: 'Rubik', sans-serif;
+}
+
+header {
+    text-align: center;
+    padding-top: 6%;
+}
+
+header>img {
+    width: 20%;
+}
+
+header>h1 {
+    font-family: 'Rubik', sans-serif;
+    color: #00dd00;
+    font-size: 25px;
+}
+
+main, nav {
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+nav {
+    background-color: #00dd00;
+    padding: 10px;
+    text-align: center;
+}
+
+
+main>h2 {
+    font-size: 18px;
+}
+
+main>p {
+    font-size: 13px;
+}
+
+.carica1, .carica2, .carica3 {
+    height: 25px;
+    border-radius: 9px;
+}
+
+.carica1 {
+    background-color: #f5b453;
+    width: 40%
+}
+
+.carica2 {
+    background-color:#1ec31e;
+    width: 60%
+}
+
+.carica3 {
+    background-color: #be4141;
+    width: 20%;
+}
